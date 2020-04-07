@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Color Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="colorgame.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <div class="titleDisplay">
+        <p>THE GREAT</p>
+        <!-- <p>GRB (<span id="rgbToGuess">Click New Colors To Play</span>)</p> -->
+        <h1><p id="display"></p></h1>
+        <p>GUESSING GAME</p>
+        <p id="contact">Contact Me <a href="https://linkedin.com/in/hiunamhon" target="_blank"><i class="fab fa-linkedin"></i></a></p> 
+    </div>
+
+    <div class="buttonDisplay">
+      <button type="button" name="button" class="buttonStyle" id="newColor">NEW COLORS</button>
+      <span id="inLineBlock"></span>
+      <button type="button" name="button" class="buttonStyle" id="easy">EASY</button>
+      <button type="button" name="button" class="selected buttonStyle" id="hard">HARD</button>
+    </div>
+
+    <div id="container">
+        <div class="img" id="img1">
+        </div>
+        <div class="img" id="img2">
+        </div>
+        <div class="img" id="img3">
+        </div>
+
+        <div class="img" id="img4">
+        </div>
+        <div class="img" id="img5">
+        </div>
+        <div class="img" id="img6">
+        </div>
+    </div>
+    <script src="colorgame.js" charset="utf-8"></script>
+  </body>
+</html>

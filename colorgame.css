@@ -1,0 +1,101 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+  background-color: black;
+  font-family: 'Roboto Mono', monospace;
+}
+
+div p {
+  margin: 0px;
+}
+
+div p:nth-of-type(1) {
+  padding-top: 10px;
+}
+
+div p:nth-of-type(2) {
+  padding-bottom: 2px
+}
+
+div h1 {
+  margin: 0px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#display {
+  padding: 0px;
+}
+
+#contact {
+  font-size: 1rem;
+}
+
+.titleDisplay {
+  text-align: center;
+  background-color: steelblue;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.buttonDisplay {
+  background-color: white;
+  text-align: center;
+  height: 30px;
+}
+
+.buttonStyle {
+  color: steelblue;
+  outline: none;
+  border: 0px;
+  padding: 0px;
+  background-color: white;
+  height: 100%;
+  padding: 3px;
+  font-weight: bold;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.selected {
+  background-color:steelblue;
+  color: white;
+}
+
+.hover {
+  background-color:steelblue;
+  color: white;
+}
+
+/* using display: inline-block to creat space */
+#inLineBlock {
+  display: inline-block;
+  width: 20%;
+  color: steelblue;
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#container{
+  /* using margin auto to center a block horizontally */
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+.img {
+  width: 30%;
+  border-radius: 15%;
+  /* using padding to fill backgroundColor */
+  padding-bottom: 30%;
+  margin: 1.66%;
+  float: left;
+}
