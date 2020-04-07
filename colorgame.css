@@ -51,7 +51,7 @@ a {
 .buttonDisplay {
   background-color: white;
   text-align: center;
-  height: 30px;
+  height: auto;
 }
 
 .buttonStyle {
