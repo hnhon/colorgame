@@ -57,9 +57,6 @@ newColorButton.addEventListener("mouseout", function(){
   newColorButton.classList.remove("hover");
 })
 
-
-
-
 function reset (){
   for (var i = 0; i<6; i++){
     square[i].classList.remove("hidden");
